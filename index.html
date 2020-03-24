@@ -3,9 +3,11 @@
     <head>
         <title>Ugly Webby</title>
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap.css" type="text/css">
     </head>
     <body>
-      <div class="jumbotron">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
         <h1 class="display-4">Uggly Boots</h1>
         <p class="lead">An exercise in using Bootstrap to make this site less ugly for once.</p>
         <hr>
@@ -17,17 +19,22 @@
       </div>
 
         <hr>
-        <div>
-          <p>Notifications: 4</p>
+        <div class="card">
+          <img class="card-img" src="http://www.quickmeme.com/img/ee/ee5c693df9d55460c433866f8a47880c72d52e346d8c52ba84eb86bcae5900be.jpg">
+          <div class="card-body">
+            <p id="card-text">Notifications: 4</p>
+          </div>
         </div>
 
         <hr>
 
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Source</a></li>
-        </ul>
+        <nav aria-label="hmm">
+          <ul class="hmm1">
+            <ol class="hmm-item1"><a href="#">Home</a></li>
+            <ol class="hmm-item2"><a href="#">About</a></li>
+            <ol class="hmm-item3"><a href="#">Source</a></li>
+          </ul>
+        </nav>
 
         <hr>
 
@@ -62,7 +69,7 @@
         </div>
 
         <hr>
-
+          <div class="container">
         <div>
           <h3>Triceratops</h3>
           <img src="assets/triceratops.jpg">
@@ -77,6 +84,7 @@
           <h3>Stegosaur</h3>
           <img src="assets/stegosaur.jpg">
           Spikes and plates but not a predator so don't worry.
+        </div>
         </div>
 
         <hr>

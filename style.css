@@ -50,3 +50,26 @@ input, textarea {
     padding:5px;
     margin:5px
 }
+
+.btn {
+    font-size: 1.5em;
+  }
+
+.card {
+    height:auto;
+    width:100%;
+}
+
+#card-text {
+    width: 120px;
+    height: 50px;
+    border: 5px solid blue;
+    color:red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:1 ;
+    grid-template-rows:2 ;
+    column-count: 2;
+}
